@@ -16,3 +16,8 @@ test('signUp',async({loginPage,Register})=>{
     await Register.clickOnSubmitButton()
     await expect(Register.selectCountry).toHaveJSProperty('validationMessage', 'Please select an item in the list.')
 })
+test('hbhh',async({Register})=>{
+    await Register.lastDetails("satya")
+    await Register.uploadFile("Files/file.txt")
+    await Register.clickOnSubmitButton()
+})
