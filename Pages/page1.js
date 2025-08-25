@@ -15,4 +15,7 @@ async enterEmailId(email){
 async clicksignInButton(){
     await this.signIn.click()
 }
+async click(){
+    await this.signIn.click()
+}
 }
