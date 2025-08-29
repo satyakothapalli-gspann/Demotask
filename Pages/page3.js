@@ -12,3 +12,4 @@ async parctice(){
 async practiseemail(email){
     await this.email.fill(email)
 }
+}
